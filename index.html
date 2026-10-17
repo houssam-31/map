@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Carte de l'Algérie</title>
+</head>
+<body>
+
+    <!-- Centrage de la carte au milieu de la page en pur HTML -->
+    <center>
+        <!-- Image redimensionnée (768 x 741 px) avec usemap -->
+        <img src="carte_algerie.png" alt="Carte de l'Algérie" width="768" height="741" usemap="#carte-algerie">
+
+        <!-- Zones cliquables adaptées aux nouvelles dimensions -->
+        <map name="carte-algerie">
+            <!-- Wilaya 31 : Oran -->
+            <area shape="circle" coords="287,81,20" href="oran.html" alt="Oran" title="Oran (Wilaya 31) - Cliquez pour voir les informations">
+
+            <!-- Wilaya 16 : Alger -->
+            <area shape="circle" coords="416,35,20" href="alger.html" alt="Alger" title="Alger (Wilaya 16) - Cliquez pour voir les informations">
+
+            <!-- Wilaya 25 : Constantine -->
+            <area shape="circle" coords="552,51,20" href="constantine.html" alt="Constantine" title="Constantine (Wilaya 25) - Cliquez pour voir les informations">
+        </map>
+    </center>
+
+</body>
+</html>
